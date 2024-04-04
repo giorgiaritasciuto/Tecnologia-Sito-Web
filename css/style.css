@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    
+}
+img{
+    max-width: 100%;
+    display: block;
+    background-color: #7bc234;
+    padding-bottom: 40px;
+}
+
+
+h1{
+   
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+    font-size: 75px;
+    margin-top: -350px;
+}
+
+header{
+    max-width: 1500px;
+    background-color:#7bc234;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-top: 9px;
+    
+
+}
+header p {
+    margin: 15px;
+   color: #ffffff;
+   padding: 0px;
+   font-weight: bold;
+   
+}
+header nav ul{
+    margin:3;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+   
+
+}
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header nav a {
+    color: #ffffff;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+main {
+    flex-grow: 1;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+
+}
+ 
+section2 {
+   display: grid;
+    max-width: 1000px;
+    margin: 40px ;
+    font-size: 25px;
+    margin-top: 200px;
+    padding-left: 70px;
+    
+}
+section3{
+    img{
+        background-color: #ffffff;
+    }
+}
+
+section4{
+    display: grid;
+    max-width: 1000px;
+    margin: 40px ;
+    font-size: 25px;
+    margin-top: 50px;
+    padding-left: 70px;
+    
+}
+footer {
+    
+    background-color: #7bc234;
+    max-width: 1500px;
+    display: flex;
+   text-align: left;
+   gap: 30px;
+   color: #ffffff;
+   
+  
+   
+ }
+footer nav ul{
+   list-style: none;
+ 
+   
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
+}
+
+footer nav a {
+    color: #ffffff;
+    margin-left: 75px;
+}
+
+footer nav a:hover {
+    color: #ffffff;
+    
+}
+
+.titolo{
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-left: 75px;
+}
+
+
+@media (max-width:1000px){
+ 
+   
+ 
+ h1{
+padding-left: 60px ;
+font-size: 25px  ;
+ margin-top: -300px  ;
+  padding-top: 160px ;
+  
+   
+    
+}
+section2{
+    padding-left: 20px;
+}
+section4{
+    padding-left: 20px;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+
+ 
+  
+}
+
+.titolo{
+ 
+    padding-bottom: 10px;
+    margin-left: 2px;
+}
+footer nav  a {
+    font-size: 12px;
+    margin: 1px;
+    padding-left: 0%;
+   
+   }
+}
